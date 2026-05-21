@@ -12,6 +12,7 @@ from .logs import LoggerHandlers, log_elapsed_time, logger
 
 # Enable logger if the project is being used as an application
 logger.enable(GeneralConstants.PACKAGE_NAME)
+__import__("ipdb").set_trace()
 
 
 @log_elapsed_time()
