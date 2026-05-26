@@ -45,6 +45,10 @@ Miscellaneous Documentation
    :parser: myst_parser.sphinx_
 
 .. include::
+    markdown_docs/input_definition.md
+   :parser: myst_parser.sphinx_
+
+.. include::
     markdown_docs/output_overview.md
    :parser: myst_parser.sphinx_
 
@@ -71,6 +75,10 @@ Miscellaneous Documentation
 .. include::
     markdown_docs/fdb.md
    :parser: myst_parser.sphinx_
+
+.. include::
+    markdown_docs/reference_checker.md
+    :parser: myst_parser.sphinx_
 
 .. include::
     markdown_docs/config.md
